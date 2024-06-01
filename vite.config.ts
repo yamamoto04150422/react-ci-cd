@@ -9,6 +9,7 @@ export default defineConfig({
     environment: "jsdom",
     include: ["src/**/*.test.{js,ts,jsx,tsx}"],
     alias: {
+      // eslint-disable-next-line
       "@": path.resolve(__dirname, "./src"),
     },
   },
