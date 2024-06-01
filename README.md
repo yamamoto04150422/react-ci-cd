@@ -1,3 +1,30 @@
+[参考](https://qiita.com/Stellarium/items/095ca74299a50016c321)
+
+
+実行
+
+``
+npm run dev
+``
+
+lint実行
+
+``
+npm run lint
+``
+
+自動整形
+
+``
+npx prettier . --write
+``
+
+build
+
+``
+npx run build
+``
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
