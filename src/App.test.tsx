@@ -1,11 +1,13 @@
 import { describe, it }from 'vitest'
-import { render, screen } from '@testing-library/react'
+import { render, screen, fireEvent } from '@testing-library/react'
 import App from './App'
 
 describe('App', () => {
   it('sample test', () => {
-    render(<App />)
-    
-    screen.debug();
+    const { getByText } = render(<App />);
+  const button = getByText(/count is 0/i);
+  fireEvent.click(button);
+  expect(button).toHaveTextContent("count is 1");
+
   })
 })
