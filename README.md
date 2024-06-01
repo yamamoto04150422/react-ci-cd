@@ -25,6 +25,13 @@ build
 npx run build
 ``
 
+テスト
+
+``
+npm run test
+npx vitest
+``
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
