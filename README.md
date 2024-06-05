@@ -32,6 +32,13 @@ npm run test
 npx vitest
 ``
 
+カバレッジ
+
+``
+npm run test -- --coverage
+npx vitest run --coverage
+``
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
