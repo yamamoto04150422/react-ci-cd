@@ -39,6 +39,19 @@ npm run test -- --coverage
 npx vitest run --coverage
 ``
 
+このワークフローは、プッシュやプルリクエストがmasterブランチに対して行われると、以下のステップを実行します。
+
+1. コードをチェックアウトする1.
+1. Node.js環境をセットアップする
+1. 依存関係をインストールする
+1. ESLintを実行する
+1. テストを実行し、カバレッジレポートを生成する
+1. プロジェクトをビルドする
+1. カバレッジレポートをアップロードする
+1. ビルド成果物をアップロードする
+
+これにより、コードの品質とビルドプロセスの一貫性を確保することができます
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
