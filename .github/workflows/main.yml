@@ -35,3 +35,11 @@ jobs:
         with:
           name: build-artifacts
           path: dist
+
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: coverage/**
+          retention-days: 5
+      
