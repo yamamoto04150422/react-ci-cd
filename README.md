@@ -50,7 +50,9 @@ npx vitest run --coverage
 1. カバレッジレポートをアップロードする
 1. ビルド成果物をアップロードする
 
-これにより、コードの品質とビルドプロセスの一貫性を確保することができます
+これにより、コードの品質とビルドプロセスの一貫性を確保
+
+[![CI/CD Pipeline](https://github.com/yamamoto04150422/react-ci-cd/actions/workflows/main.yml/badge.svg)](https://github.com/yamamoto04150422/react-ci-cd/actions/workflows/main.yml)
 
 # React + TypeScript + Vite
 
